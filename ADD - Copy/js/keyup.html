@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>key up</title>
+</head>
+<body>
+<form>
+enter your first name:<input type="text" id="first name" onkeyup="my()">
+</form>
+<p>My first name is:<span id="Test"></span></p>
+<script>
+function my()
+{
+ var input=document.getElementById("first name").value;
+ document.getElementById("Test").innerHTML=input;
+}
+</script>
+</body>
+</html>

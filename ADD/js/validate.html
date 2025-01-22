@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>validate</title>
+</head>
+<script>
+function cat()
+{
+let uname=document.getElementById("uname").value;
+let pwd=document.getElementById("pwd").value;
+if(uname==""|| pwd=="")
+{
+alert("name/password field is blank");
+return false;
+}
+if(pwd.length<6)
+{
+alert("password must have 6or more characters");
+return false;}}
+</script>
+
+<body>
+<form onsubmit="cat()">
+username: <input type="text" id="uname"><br>
+password: <input type="password" id="pwd"><br>
+<input type="submit">
+</form>
+
+</body>
+</html>

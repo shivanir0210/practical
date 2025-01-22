@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Items</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #0F1111;
+            color: #fff;
+        }
+        .header {
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .collection-section {
+            background-color: #34D0C3;
+            padding: 20px;
+            text-align: center;
+        }
+        .collection-section h2 {
+            margin: 0;
+            margin-bottom: 10px;
+        }
+        .collection-section .items {
+            display: flex;
+            justify-content: space-around;
+        }
+        .collection-section .item {
+            text-align: center;
+        }
+        .collection-section .item img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .search-bar {
+            margin: 20px;
+            text-align: center;
+        }
+        .search-bar input {
+            padding: 10px;
+            width: 80%;
+            border-radius: 10px;
+            border: none;
+        }
+        .categories {
+            margin: 20px;
+        }
+        .category {
+            background-color: #FF5E78;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            color: #fff;
+            text-decoration: none;
+        }
+        .category:nth-child(2) {
+            background-color: #7F5BB5;
+        }
+        .category:nth-child(3) {
+            background-color: #3D4B7D;
+        }
+        .category:nth-child(4) {
+            background-color: #7FC6E4;
+        }
+        .category:nth-child(5) {
+            background-color: #9CDBE8;
+        }
+        .category-icon {
+            margin-right: 15px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">Items</div>
+
+    <div class="collection-section">
+        <h2>What we collect</h2>
+        <div class="items">
+            <div class="item">
+                <img src="C:\Users\shiva\OneDrive\Pictures\soft plastics.png" alt="Soft Plastics"/>
+                <p>Soft Plastics</p>
+            </div>
+            <div class="item">
+                <img src="C:\Users\shiva\OneDrive\Pictures\e wate.jpg" alt="E-Waste">
+                <p>E-Waste</p>
+            </div>
+            <div class="item">
+                <img src="C:\Users\shiva\OneDrive\Pictures\clothes.jpg" alt="Clothes">
+                <p>Clothes</p>
+            </div>
+            <div class="item">
+                <img src="C:\Users\shiva\OneDrive\Pictures\misfits.jpg" alt="Misfits">
+                <p>Misfits</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="search-bar">
+        <input type="text" placeholder="Search an item">
+    </div>
+
+    <div class="categories">
+        <a href="#" class="category">
+            <span class="category-icon">🏠</span>
+            Household
+        </a>
+        <a href="#" class="category">
+            <span class="category-icon">♻</span>
+            Plastic
+        </a>
+        <a href="#" class="category">
+            <span class="category-icon">🍴</span>
+            Food
+        </a>
+        <a href="#" class="category">
+            <span class="category-icon">📱</span>
+            Electronics
+        </a>
+        <a href="#" class="category">
+            <span class="category-icon">🔋</span>
+            Batteries
+        </a>
+    </div>
+
+</body>
+</html>

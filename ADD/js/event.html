@@ -1,0 +1,16 @@
+<html>
+<head><title>on change</title>
+</head>
+<form>
+<input type="text" id="name" onchange="myfunction()" placeholder="username">
+</form>
+<p id="demo"></p>
+<script>
+function myfunction()
+{
+ var x=document.getElementById("name").value;
+ document.getElementById("demo").innerHTML="welcome:"+x;
+}
+</script>
+</body>
+</html>

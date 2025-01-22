@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>exception</title>
+</head>
+<body>
+<script>
+function aa()
+{
+let a=0;
+let b=0;
+try
+{
+if(b==0)
+{
+throw("ddivisor is zero");
+}
+else
+{
+ let c=a/b;
+document.write(c);
+}
+}
+catch( e )
+{
+alert("error: "+e);
+}
+finally
+{
+document.write("end the program");
+}
+}
+</script>
+<p> click the following to see the result:</p>
+<form>
+<input type="button" value="click me" onclick="aa()"/>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>alert demo</title>
+<body>
+<p id="ans"></p>
+<button onclick="message()">click me!</button>
+<script>
+function message()
+{
+let answer;
+let question=confirm("do you want eve class");
+if(question==true)
+{
+answer="yes i want eve class";
+}
+else
+{
+answer="no i don't need";
+}
+document.getElementById("ans").innerHTML=answer;
+
+
+
+}
+</script>
+</body>
+</html>
